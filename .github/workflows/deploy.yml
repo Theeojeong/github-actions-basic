@@ -38,3 +38,5 @@ jobs:
         run: |
           echo ${{ secrets.OPENAI_API_KEY }}
           echo ${{ secrets.GOOGLE_API_KEY }}
+
+# YAML 파일 구조: Event -> Workflow -> Jobs -> Steps
