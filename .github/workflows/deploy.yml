@@ -25,3 +25,9 @@ jobs:
         run: |
           echo "Good Morning"
           echo "!"
+
+      - name: Github Actions 자체에 저장되어 있는 변수 사용해보기
+        # $ -> 리눅스에서 변수를 나타내는 방식
+        run: |
+          echo $GITHUB_SHA 
+          echo $GITHUB_REPOSITORY
